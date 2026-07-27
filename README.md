@@ -2,7 +2,7 @@
 
 Engineering documentation for **XLR8**, a self-driving LEGO SPIKE Prime vehicle built for the **World Robot Olympiad (WRO) 2026 — Future Engineers** category.
 
-> CAD/3D-printable model files are being added to [`models/`](models/) separately.
+> CAD/3D-printable model files are in [`models/`](models/).
 
 ## Repository content
 
@@ -13,7 +13,7 @@ Engineering documentation for **XLR8**, a self-driving LEGO SPIKE Prime vehicle 
 | [`video`](video/) | Links to the driving-demonstration videos (open + obstacle rounds) |
 | [`schemes`](schemes/) | Electromechanical wiring diagram and annotated component photos |
 | [`src`](src/) | Control software (hub + camera) |
-| [`models`](models/) | 3D-printable/CAD parts *(pending — see note above)* |
+| [`models`](models/) | 3D-printable/CAD parts (CAD source + STL/STEP + full render) |
 | [`other`](other/) | Supporting figures referenced from this document (mechanical design, iteration history, power & sensors, software & vision) |
 
 ---
@@ -47,6 +47,10 @@ This repository documents the autonomous robot car developed by **XLR8** for the
 Last year's robot (which inspired this year's chassis) is documented at: https://github.com/uyennhu25/WRO_2025_Future_Engineers
 
 ## 2. The robot
+
+![Full CAD render](models/xlr8-cad-render.png)
+
+CAD source and 3D-printable parts for the assembly above are in [`models/`](models/).
 
 | | | |
 |---|---|---|
