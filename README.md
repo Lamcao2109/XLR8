@@ -14,6 +14,7 @@ Engineering documentation for **XLR8**, a self-driving LEGO SPIKE Prime vehicle 
 | [`schemes`](schemes/) | Electromechanical wiring diagram and annotated component photos |
 | [`src`](src/) | Control software (hub + camera) |
 | [`models`](models/) | 3D-printable/CAD parts (CAD source + STL/STEP + full render) |
+| [`construction-guide`](construction-guide/) | Step-by-step build guide (rear camera → upper chassis → lower chassis → software) |
 | [`other`](other/) | Supporting figures referenced from this document (mechanical design, iteration history, power & sensors, software & vision) |
 
 ---
@@ -395,6 +396,7 @@ Full source: [`src/hub/FeObstacle.py`](src/hub/FeObstacle.py).
 
 ## 7. Repository / build instructions
 
+* **Mechanical assembly** — see the [step-by-step construction guide](construction-guide/) for the full rear-camera → upper-chassis → lower-chassis build order.
 * **Hub code** ([`src/hub/`](src/hub/)) is written for **Pybricks** running on the LEGO SPIKE Prime Hub.
   * Install the [Pybricks firmware](https://pybricks.com/install/) on the hub, open [Pybricks Code](https://code.pybricks.com/), and upload `FeFunctions.py` alongside whichever entry point you want to run: `FeOpen.py` (Open Challenge), `FeObstacle.py` (Obstacle Challenge), or `FeView.py` (live sensor telemetry over the hub's Bluetooth REPL — useful for debugging without re-flashing).
 * **Camera code** ([`src/camera/`](src/camera/)) is written in **MicroPython** for the Matrix Robotics M-Vision Cam (OpenMV-based).
